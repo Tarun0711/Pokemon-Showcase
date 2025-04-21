@@ -1,0 +1,111 @@
+.MainContainer{
+  padding: none;
+  align-items: center;
+  text-align: center;
+}
+.App {
+  background: url("https://images.hdqwalls.com/download/pokemon-2048x1152.jpg");
+  background-position: center;
+  background-position: fixed;
+  background-size: cover;
+}
+.Header {
+  text-align: center;
+  text-decoration:none;
+  p {
+    background-image: url("https://th.bing.com/th/id/R.b17d6cff29c9ed4c4cca4cd8cdea9076?rik=AhPHxydZpKNK2A&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2fb%2f9%2ff%2f53776.jpg&ehk=9le2NRpTxIELha1dxsZAHnoaCbtAg%2bBp5UJNMyueg6E%3d&risl=&pid=ImgRaw&r=0");
+    font-size:4rem;
+    font-weight: 800;
+    background-size: 250px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+        background-repeat: repeat;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+}
+p{
+  font-size: 18px;
+  background-color: rgba(127, 255, 212, 0.342);
+  background-size:cover;
+}
+h2{
+  color: aliceblue;
+  -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+
+}
+
+.container {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 30px;
+  position: relative;
+
+}
+.Card {
+  margin: 20px;
+  position: relative;
+  border: 4px solid #06e6ff6d;
+  backdrop-filter: blur(8px);
+  background-color: rgba(255, 235, 205, 0.247);
+  border-radius: 15px;
+  height: 350px;
+  width: 300px;
+  transition: 1.5s;
+}
+.Card:hover{
+  background-color: rgba(0, 255, 255, 0.282);
+  backdrop-filter: blur(10px);
+
+  transform: scale(1.1)
+
+}
+img {
+  height: 100px;
+  width: 100px;
+}
+button{
+  background: rgb(27, 97, 94);
+  box-shadow: inset 3px 3px 3px rgb(63, 255, 245);
+  transition: 1s ease-in-out;
+  height:50px;
+  width: 200px;
+  border: none;
+  color: aliceblue;
+  align-items: center;
+  margin-bottom: 30px;
+  border-radius: 15px;
+}
+button:hover{
+  box-shadow: none;
+  transform: scale(1.1);
+  
+}
+.MainModal{
+  height: 100%;
+  width: 100%;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.732);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position:absolute;
+  text-align: center;
+  top:0;
+  left: 0;
+}
+.Modal{
+  padding: 30px;
+  height: 500px;
+  width:600px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap:10px ;
+  background-color: aquamarine;
+}
